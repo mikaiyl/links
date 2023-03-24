@@ -1,7 +1,7 @@
 const ghPages = require('gh-pages');
 
 ghPages.publish(
-    'dist',
+    'build',
     {
         branch: 'gh-pages',
         repo: 'ssh://git@github.com/mikaiyl/links.git',
