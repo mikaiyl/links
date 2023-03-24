@@ -256,7 +256,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+build
 
 # Gatsby files
 .cache/
@@ -303,3 +303,5 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+/dist/
