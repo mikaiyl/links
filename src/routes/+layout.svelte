@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
 	// This can be false if you're using a fallback (i.e. SPA mode)
-	export const prerender = true;
 	import Header from './Header.svelte';
-	import './styles.css';
+	import "../app.css";
+	// import './styles.css';
 </script>
 
 <div class="app">
@@ -12,9 +12,6 @@
 		<slot />
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
 </div>
 
 <style>
