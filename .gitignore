@@ -317,3 +317,4 @@ build
 
 /dist/
 /old/
+auth_config.js
